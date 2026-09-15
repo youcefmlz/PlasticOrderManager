@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.env*.local
+*.local
+!.env.example
+
+# Expo and frontend build output
+.expo/
+dist/
+web-build/
+static-build/
+expo-env.d.ts
+coverage/
+
+# Native and signing credentials
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.keystore
+google-services.json
+GoogleService-Info.plist
+
+# Metro and tool caches
+.metro-health-check*
+.metro-cache/
+.cache/
+.parcel-cache/
+.turbo/
+.upm/
+
+# Logs and debug output
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.*
+*.log
+
+# Local OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Certificates and private keys
+*.pem
+*.crt
+*.cer
+
+# TypeScript
+*.tsbuildinfo
+
+# Generated native folders
+/ios
+/android
+
+# Local editor and workspace state
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.fleet/

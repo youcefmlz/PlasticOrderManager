@@ -1,0 +1,8 @@
+.config/
+.expo/
+.cache/
+.local/
+.upm/
+node_modules/
+dist/
+web-build/
